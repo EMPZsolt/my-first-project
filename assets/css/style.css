@@ -14,7 +14,7 @@ body {
 
 /* Headings and logo */
 
-h1, h3 {
+h1, h2 {
     font-family: Crimson Text, sans-serif;
     letter-spacing: 4px;
 }
@@ -22,4 +22,35 @@ h1, h3 {
 #logo {
     float: left;
     font-size: 200%;
+}
+
+/* Nav links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #999094;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #999094;
+}
+
+.active {
+    border-bottom: 1px solid #999094;
 }
