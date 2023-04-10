@@ -117,7 +117,8 @@ h2 {
 /* Footer - Contacts */
 
 #footer {
-    height: 150px;
+    height: 200px;
+    background-color: #F3F0F2;
 }
 
 .circle-picture {
@@ -126,10 +127,29 @@ h2 {
     border-radius: 50%;
 }
 
-.contacts {
+#contacts {
     text-align: center;
 }
 
-.person {
+#contacts-text {
+    font-size: 200%;
+    margin-left: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.contact-person {
     display: inline-block;
+}
+
+#person1 {
+    width: 33%;
+}
+
+#person2 {
+    width: 33%;
+}
+
+#person3 {
+    width: 33%;
 }
