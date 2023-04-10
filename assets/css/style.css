@@ -21,7 +21,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 150%;
+    font-size: 180%;
     color: #baadb5;
     font-family: Crimson Text, sans-serif;
     margin-left: 30px;
@@ -118,4 +118,18 @@ h2 {
 
 #footer {
     height: 150px;
+}
+
+.circle-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.person {
+    display: inline-block;
 }
