@@ -14,14 +14,16 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Crimson Text, sans-serif;
     letter-spacing: 4px;
 }
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 150%;
+    color: #baadb5;
+    font-family: Dancing Script, sans-serif;
 }
 
 /* Nav links */
@@ -44,13 +46,45 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: #999094;
+    color: #baadb5;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #999094;
+    border-bottom: 1px solid #baadb5;
 }
 
 .active {
-    border-bottom: 1px solid #999094;
+    border-bottom: 1px solid #baadb5;
+}
+
+/* Body and Hero image */
+
+#hero-outer {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+#hero-image {
+    width: 100%;
+    height: 800px;
+    background: url('../images/Hero\ image.JPG') no-repeat center center;
+    background-size: cover;
+
+    /* animates zoom effect on loading page */
+ animation-name: hero-zoom;
+ animation-duration: 10s;
+ animation-fill-mode: forwards;
+}
+
+ 
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.15);
+    }
 }
