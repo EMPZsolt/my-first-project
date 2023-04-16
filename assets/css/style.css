@@ -14,6 +14,12 @@ body {
 
 /* Headings and logo */
 
+#header-background {
+    width: 100vw;
+    height: 7vw;
+    background-color: #fff8f8;
+}
+
 h2 {
     font-family: Crimson Text, sans-serif;
     letter-spacing: 4px;
@@ -117,13 +123,14 @@ h2 {
 /* Footer - Contacts */
 
 #footer {
-    height: 200px;
-    background-color: #F3F0F2;
+    width: 100vw;
+    height: 10vw;
+    background-color: #fff8f8;
 }
 
 .circle-picture {
-    width: 150px;
-    height: 150px;
+    width: 9em;
+    height: 9em;
     border-radius: 50%;
 }
 
