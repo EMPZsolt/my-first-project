@@ -40,10 +40,64 @@
             </ul>
         </nav>
     </header>
+
+    <form action="#" method="POST">
+
     <section>
 
-        
+        <div class="float-left">
+            img
+        </div>
+
+        <div class="float-right">
+            <label for="name">Name</label>
+            <br>
+            <input id="name" type="text" name="full_name" required>
+        </div>
     </section>
+
+    <section>
+        <div class="float-left">
+               img2
+        </div>
+
+        <div class="float-right">
+            <fieldset>
+            <legend>RSVP</legend>
+
+                <input id="friday-saturday" name="attend" value="friday-saturday" type="radio" required>
+			    <label for="friday-saturday">I will attand friday & saturday</label>
+                <br>
+                <input id="only saturday" name="attend" value="only-saturday" type="radio" required>
+			    <label for="only saturday">I will attand only saturday</label>
+            </fieldset>
+        </div>
+    </section>
+    <section>
+        <div class="float-left">
+            img3
+        </div>
+
+        <div class="float-right">
+            <fieldset>
+                <legend>MENU</legend>
+    
+                    <input id="meat" name="food" value="meat" type="radio" required>
+                    <label for="meat">Meat</label>
+                    <br>
+                    <input id="fish" name="food" value="fish" type="radio" required>
+                    <label for="fish">Fish</label>
+                    <br>
+                    <input id="vegetarian" name="food" value="vegetarian" type="radio" required>
+                    <label for="vegetarian">Vegetarian</label>
+                    <br>
+                    <label for="info-for-allergy">Some allergy / dietary requirements</label>
+                    <br>
+                    <textarea id="info-for-allergy" rows="4" cols="87" name="feedback"></textarea>
+                </fieldset>
+        </div>
+    </section>
+    </form>
 
      <!-- Font awesome script -->
      <script src="https://kit.fontawesome.com/ac5a93bf5a.js" crossorigin="anonymous"></script>
