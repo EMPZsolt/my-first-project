@@ -16,7 +16,7 @@ body {
 
 #header-background {
     width: 100vw;
-    height: 7vw;
+    height: 5vw;
     background-color: #fff8f8;
 }
 
@@ -124,7 +124,7 @@ h2 {
 
 #footer {
     width: 100vw;
-    height: 10vw;
+    height: 30vh;
     background-color: #fff8f8;
 }
 
