@@ -160,3 +160,12 @@ h2 {
 #person3 {
     width: 33%;
 }
+
+/* Form */
+
+form {
+    background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
+    width: 100vw;
+    height: 100vh;
+}
+
