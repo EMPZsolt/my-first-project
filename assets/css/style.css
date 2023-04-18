@@ -242,3 +242,26 @@ h2 {
 
 /* Location */
 
+#location {
+    height: 800px;
+    width: 100%;
+}
+
+#location h1 {
+    text-align: center;
+    font-size: 300%;
+    padding: 5rem 0;
+}
+
+#location a {
+    text-decoration: none;
+    width: 50%;
+    float: right;
+    padding-right: 2.5rem;
+    color: #000;
+    font-size: 200%;
+}
+
+#location p{
+    text-align: center;
+}
