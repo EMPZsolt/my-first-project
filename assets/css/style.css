@@ -42,7 +42,7 @@ h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 3rem;
 }
 
 #menu li {
@@ -169,21 +169,23 @@ h2 {
 }
 
 #left-column {
-    padding-top: 30px;
+    padding-top: 3rem;
     width: 25%;
     float: left;
+    display: inline-block;
 }
 
 #right-column {
-    padding-top: 30px;
+    padding-top: 3rem;
     width: 75%;
     float: right;
+    font-size: 180%;
 }
-
 
 #first-img {
     background-image: url('../images/couple.png') norepeat;
-    background-size: conatain;
+    background-size: contain;
+    background-position: center center;
 }
 
 #second-img {
@@ -195,9 +197,48 @@ h2 {
 }
 
 .left-img {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    line-height: 2.5rem;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 1.7rem;
     float: right;
 }
+
+.right-content { 
+    width: 60%;
+    line-height: 2.5rem;
+    clear: both;
+    margin-bottom: 1.7rem;
+}
+
+#name {
+    font-size: x-large;
+}
+
+#info-for-allergy {
+    font-size: x-large;
+}
+
+/* Schedule */
+
+#schedule {
+    background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
+    background-size: contain;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 800px;
+    width: 100%;
+    display: block;
+}
+
+#schedule section {
+    margin-bottom: 2.5rem;
+}
+
+#schedule h1 {
+    padding-top: 2rem;
+    font-size: 300%;
+}
+
+/* Location */
+
