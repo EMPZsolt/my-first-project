@@ -163,9 +163,41 @@ h2 {
 
 /* Form */
 
-form {
+#rsvp {
     background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
-    width: 100vw;
-    height: 100vh;
+    height: 800px;
 }
 
+#left-column {
+    padding-top: 30px;
+    width: 25%;
+    float: left;
+}
+
+#right-column {
+    padding-top: 30px;
+    width: 75%;
+    float: right;
+}
+
+
+#first-img {
+    background-image: url('../images/couple.png') norepeat;
+    background-size: conatain;
+}
+
+#second-img {
+    background-image: url('../images/calendar-heart.png') norepeat;
+}
+
+#third-img {
+    background-image: url('../images/wedding-food.png') norepeat;
+}
+
+.left-img {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    margin-bottom: 50px;
+    float: right;
+}

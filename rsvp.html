@@ -41,63 +41,64 @@
         </nav>
     </header>
 
-    <form action="#" method="POST">
-
-    <section>
-
-        <div class="float-left first-form-img">
-            <img src="assets/images/couple.png">
-        </div>
-
-        <div class="float-right">
-            <label for="name">Name</label>
-            <br>
-            <input id="name" type="text" name="full_name" required>
-        </div>
-    </section>
-
-    <section>
-        <div class="float-left">
-            <img src="assets/images/calendar-heart.png">  
-        </div>
-
-        <div class="float-right">
-            <fieldset>
-            <legend>RSVP</legend>
-
-                <input id="friday-saturday" name="attend" value="friday-saturday" type="radio" required>
-			    <label for="friday-saturday">I will attand friday & saturday</label>
-                <br>
-                <input id="only saturday" name="attend" value="only-saturday" type="radio" required>
-			    <label for="only saturday">I will attand only saturday</label>
-            </fieldset>
-        </div>
-    </section>
-    <section>
-        <div class="float-left">
-            <img src="assets/images/wedding-food.png">
-        </div>
-
-        <div class="float-right">
-            <fieldset>
-                <legend>MENU</legend>
+    <section id="rsvp">
+        <form action="#" method="POST">
+            <div id="left-column">
     
-                    <input id="meat" name="food" value="meat" type="radio" required>
-                    <label for="meat">Meat</label>
+                <div id="first-img" class="left-img">
+                    
+                </div>
+    
+                <div id="second-img" class="left-img">
+                    
+                </div>
+    
+                <div id="third-img" class="left-img">
+                    
+                </div>
+    
+            </div>
+    
+            <div id="right-column">
+                <div class="right-content">
+                    <label for="name">Name</label>
                     <br>
-                    <input id="fish" name="food" value="fish" type="radio" required>
-                    <label for="fish">Fish</label>
-                    <br>
-                    <input id="vegetarian" name="food" value="vegetarian" type="radio" required>
-                    <label for="vegetarian">Vegetarian</label>
-                    <br>
-                    <label for="info-for-allergy">Some allergy / dietary requirements</label>
-                    <br>
-                    <textarea id="info-for-allergy" rows="4" cols="87" name="feedback"></textarea>
-                </fieldset>
-        </div>
+                    <input id="name" type="text" name="full_name" required>
+                </div>
+    
+                <div class="rigth-content">
+                    <fieldset>
+                    <legend>RSVP</legend>
+        
+                        <input id="friday-saturday" name="attend" value="friday-saturday" type="radio" required>
+                        <label for="friday-saturday">I will attand friday & saturday</label>
+                        <br>
+                        <input id="only saturday" name="attend" value="only-saturday" type="radio" required>
+                        <label for="only saturday">I will attand only saturday</label>
+                    </fieldset>
+                </div>
+    
+                <div class="right-content">
+                    <fieldset>
+                        <legend>MENU</legend>
+            
+                            <input id="meat" name="food" value="meat" type="radio" required>
+                            <label for="meat">Meat</label>
+                            <br>
+                            <input id="fish" name="food" value="fish" type="radio" required>
+                            <label for="fish">Fish</label>
+                            <br>
+                            <input id="vegetarian" name="food" value="vegetarian" type="radio" required>
+                            <label for="vegetarian">Vegetarian</label>
+                            <br>
+                            <label for="info-for-allergy">Some allergy / dietary requirements</label>
+                            <br>
+                            <textarea id="info-for-allergy" rows="4" cols="87" name="feedback"></textarea>
+                    </fieldset>
+                </div>
+            </div>
+        </form>
     </section>
-    </form>
 
      <!-- Font awesome script -->
      <script src="https://kit.fontawesome.com/ac5a93bf5a.js" crossorigin="anonymous"></script>
