@@ -327,3 +327,8 @@ h2 {
     display: inline-block;
     text-align: center;
 }
+
+.destination-column img {
+    width: 100%;
+    display: inline-block;
+}
