@@ -9,7 +9,7 @@
 body {
     font-family: Crimson Text, sans-serif;
     font-weight: 300;
-    color:#242122
+    color: #7f6d73;
 }
 
 /* Headings and logo */
@@ -313,13 +313,24 @@ h2 {
 
 #honeymoon {
     background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
-    height: 800px;
+    height: 900px;
 }
 
 #welcome {
     text-align: center;
-    font-size: 300%;
     padding: 3rem 0 5rem;
+}
+
+#welcome h1 {
+    font-size: 300%;
+    padding: 0 0 5rem;
+    font-family: Dancing Script, sans-serif;
+}
+
+#welcome h4 {
+    font-size: 200%;
+    padding: 0 25rem;
+    font-weight: 500;
 }
 
 .destination-column {
@@ -329,6 +340,12 @@ h2 {
 }
 
 .destination-column img {
-    width: 100%;
+    width: auto;
     display: inline-block;
+    height: 17rem;
+    border-radius: 10px;
+}
+
+.destination-text {
+    font-size: xx-large;
 }
