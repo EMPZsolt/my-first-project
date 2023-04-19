@@ -172,7 +172,6 @@ h2 {
     padding-top: 3rem;
     width: 25%;
     float: left;
-    display: inline-block;
 }
 
 #right-column {
@@ -190,10 +189,14 @@ h2 {
 
 #second-img {
     background-image: url('../images/calendar-heart.png') norepeat;
+    background-size: contain;
+    background-position: center center;
 }
 
 #third-img {
     background-image: url('../images/wedding-food.png') norepeat;
+    background-size: contain;
+    background-position: center center;
 }
 
 .left-img {
@@ -304,4 +307,23 @@ h2 {
     width: 100%;
     display: inline-block;
     grid-row: 1;
+}
+
+/* Honeymoon */
+
+#honeymoon {
+    background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
+    height: 800px;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 300%;
+    padding: 3rem 0 5rem;
+}
+
+.destination-column {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
 }
