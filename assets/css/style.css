@@ -181,24 +181,6 @@ h2 {
     font-size: 180%;
 }
 
-#first-img {
-    background-image: url('../images/couple.png') norepeat;
-    background-size: contain;
-    background-position: center center;
-}
-
-#second-img {
-    background-image: url('../images/calendar-heart.png') norepeat;
-    background-size: contain;
-    background-position: center center;
-}
-
-#third-img {
-    background-image: url('../images/wedding-food.png') norepeat;
-    background-size: contain;
-    background-position: center center;
-}
-
 .left-img {
     width: 60%;
     line-height: 2.5rem;
@@ -207,11 +189,23 @@ h2 {
     float: right;
 }
 
+#first-img > img {
+    width: 50%;
+}
+
+#second-img > img {
+    width: 50%;
+}
+
+#third-img > img {
+    width: 50%;
+    padding: 2rem 0;
+}
 .right-content { 
     width: 60%;
-    line-height: 2.5rem;
+    line-height: 3rem;
     clear: both;
-    margin-bottom: 1.7rem;
+    margin-bottom: 2rem;
 }
 
 #name {
@@ -220,6 +214,10 @@ h2 {
 
 #info-for-allergy {
     font-size: x-large;
+}
+
+button > img {
+    width: 3rem;
 }
 
 /* Schedule */
@@ -241,6 +239,7 @@ h2 {
 #schedule h1 {
     padding-top: 2rem;
     font-size: 300%;
+    font-family: Dancing Script, sans-serif;
 }
 
 /* Location */
@@ -259,6 +258,7 @@ h2 {
     text-align: center;
     font-size: 300%;
     padding: 5rem 0 2rem;
+    font-family: Dancing Script, sans-serif;
 }
 
 #location p{
@@ -279,7 +279,7 @@ h2 {
 
 #hotel-link a {
     text-decoration: none;
-    color: #000;
+    color: #7f6d73;
     font-size: 200%;
     display: inline;
     
