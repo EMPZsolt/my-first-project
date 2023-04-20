@@ -107,7 +107,7 @@ h2 {
     width: 520px;
     height: 400px;
     bottom: 120px;
-    right: 150px;
+    right: 5rem;
     position: absolute;
     text-align: center;
 }
@@ -116,7 +116,7 @@ h2 {
     width: 500px;
     height: 200px;
     bottom: 10px;
-    right: 100px;
+    right: 5rem;
     position: absolute;
 }
 
@@ -140,7 +140,6 @@ h2 {
 
 #contacts-text {
     font-size: 200%;
-    margin-left: 30px;
     letter-spacing: 4px;
     text-align: center;
 }
@@ -348,4 +347,61 @@ button > img {
 
 .destination-text {
     font-size: xx-large;
+}
+
+/* Media queires */
+
+/*For larger to medium screen size form 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    /* index.html */
+    #cover-text {
+        font-size: 320%;
+        font-family: Dancing Script, sans-serif;
+        letter-spacing: 4px;
+        width: 520px;
+        height: 400px;
+        bottom: 120px;
+        right: 1rem;
+        position: absolute;
+        text-align: center;
+    }
+    
+    #countdown {
+        width: 500px;
+        height: 200px;
+        bottom: 10px;
+        right: 1rem;
+        position: absolute;
+    }    
+
+    /* honeymoon.html*/
+
+    #honeymoon {
+        height: 1000px;
+    }
+
+    #welcome h4 {
+        font-size: 200%;
+        padding: 0 16rem;
+        font-weight: 500;
+    }
+
+    .destination-column img {
+        width: 80%;
+        display: inline-block;
+        height: 14rem;
+        border-radius: 10px;
+    }
+
+    /* rsvp.html */
+
+    .left-img {
+        width: 60%;
+        line-height: 2.5rem;
+        clear: both;
+        margin-bottom: 5rem;
+        float: right;
+    }
+    
+
 }
