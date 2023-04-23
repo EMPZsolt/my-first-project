@@ -348,6 +348,7 @@ button > img {
     display: inline-block;
     height: 17rem;
     border-radius: 10px;
+    margin-bottom: 0.5rem;
 }
 
 .destination-text {
