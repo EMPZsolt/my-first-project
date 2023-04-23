@@ -169,7 +169,7 @@ h2 {
 }
 
 #left-column {
-    padding-top: 3rem;
+    padding-top: 3.5rem;
     width: 25%;
     float: left;
 }
@@ -382,7 +382,7 @@ button > img {
     /* honeymoon.html*/
 
     #honeymoon {
-        height: 1000px;
+        height: 850px;
     }
 
     #welcome h4 {
@@ -488,14 +488,14 @@ button > img {
         width: 50%;
     }
 
-    /* Honeymoon */
+    /* honeymoon.html */
 
     #honeymoon {
-        height: 1750px;
+        height: 1600px;
     }
 
     #welcome h4 {
-        font-size: 200%;
+        font-size: 150%;
         padding: 0 3rem;
         font-weight: 500;
     }
@@ -516,5 +516,70 @@ button > img {
 
     .destination-text {
         margin-bottom: 3rem;
+    }
+
+    /* rsvp.html */
+
+    #rsvp {
+        background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
+        height: 900px;
+    }
+    
+    #left-column {
+        padding-top: 3rem;
+        width: 25%;
+        float: left;
+    }
+    
+    #right-column {
+        padding-top: 3rem;
+        width: 75%;
+        float: right;
+        font-size: 120%;
+    }
+    
+    .left-img {
+        width: 60%;
+        line-height: inherit;
+        clear: both;
+        margin: 0 0 7rem;
+        float: right;
+    }
+    
+    #first-img > img {
+        width: 50%;
+        height: 3rem;
+        padding-top: 1rem;
+    }
+    
+    #second-img > img {
+        width: 50%;
+        height: 3rem;
+    }
+    
+    #third-img > img {
+        width: 50%;
+        height: 3rem;
+        padding: 2rem 0;
+    }
+    .right-content { 
+        width: 90%;
+        line-height: 3rem;
+        clear: both;
+        margin-bottom: 2rem;
+    }
+    
+    #name {
+        font-size: x-large;
+        width: 95%;
+    }
+    
+    #info-for-allergy {
+        font-size: x-large;
+        width: 95%;
+    }
+    
+    button > img {
+        width: 3rem;
     }
 }
