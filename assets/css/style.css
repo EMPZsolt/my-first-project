@@ -28,7 +28,7 @@ h2 {
 #logo {
     float: left;
     font-size: 180%;
-    color: #baadb5;
+    color: #930029;
     font-family: Crimson Text, sans-serif;
     margin-left: 30px;
 }
@@ -53,7 +53,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: #baadb5;
+    color: #930029;
 }
 
 #menu a:hover {
