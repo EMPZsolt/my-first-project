@@ -121,8 +121,8 @@ h2 {
 #countdown {
     width: 500px;
     height: 200px;
-    bottom: 10px;
-    right: 5rem;
+    bottom: 60px;
+    right: 1rem;
     position: absolute;
     border-style: none;
 }
@@ -131,7 +131,6 @@ h2 {
 
 #footer {
     width: 100%;
-    height: 19rem;
     background-color: #fff8f8;
     padding-top: 10px;
 }
@@ -379,22 +378,14 @@ button > img {
     /* index.html */
 
     #cover-text {
-        font-size: 320%;
-        font-family: "Dancing Script", sans-serif;
-        letter-spacing: 4px;
-        width: 520px;
-        height: 400px;
-        bottom: 120px;
-        right: 1rem;
-        position: absolute;
-        text-align: center;
+        right: 3rem;
     }
     
     #countdown {
         width: 500px;
         height: 200px;
-        bottom: 10px;
-        right: 1rem;
+        bottom: 60px;
+        right: -1rem;
         position: absolute;
     }    
 
@@ -439,23 +430,21 @@ button > img {
     }    
 
     #cover-text {
-        font-size: 150%;
-        font-family: "Dancing Script", sans-serif;
+        font-size: 180%;
         letter-spacing: 3px;
         width: 100%;
         height: 250px;
-        bottom: 120px;
         right: 1rem;
-        position: absolute;
         text-align: center;
     }
     
     #countdown {
-        width: 340px;
+        width: 100%;
         height: 230px;
-        bottom: 10px;
-        right: 3rem;
+        bottom: -20px;
+        right: 1.5rem;
         position: absolute;
+        text-align: center;
     }
 
     /* Header */
