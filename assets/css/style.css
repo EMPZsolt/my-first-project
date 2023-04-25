@@ -124,6 +124,7 @@ h2 {
     bottom: 10px;
     right: 5rem;
     position: absolute;
+    border-style: none;
 }
 
 /* Footer - Contacts */
