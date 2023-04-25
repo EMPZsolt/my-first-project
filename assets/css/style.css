@@ -33,6 +33,10 @@ h2 {
     margin-left: 30px;
 }
 
+#logo:hover {
+    color: #a86c6c;
+}
+
 /* Nav links */
 
 #menu {
@@ -57,7 +61,8 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #baadb5;
+    border-bottom: 1px solid #a86c6c;
+    color: #a86c6c;
 }
 
 .active {
