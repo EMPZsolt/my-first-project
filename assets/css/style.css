@@ -494,7 +494,6 @@ button > img {
         width: 80%;
         height: 380px;
         display: block;
-        text-align: center;
         margin: 0 auto;
     }
 
@@ -513,22 +512,18 @@ button > img {
     #left-column {
         padding-top: 3rem;
         width: 25%;
-        float: left;
     }
     
     #right-column {
         padding-top: 3rem;
         width: 75%;
-        float: right;
         font-size: 120%;
     }
     
     .left-img {
         width: 60%;
         line-height: inherit;
-        clear: both;
         margin: 0 0 7rem;
-        float: right;
     }
     
     #first-img > img {
@@ -550,17 +545,14 @@ button > img {
     .right-content { 
         width: 90%;
         line-height: 3rem;
-        clear: both;
         margin-bottom: 2rem;
     }
     
     #name {
-        font-size: x-large;
         width: 95%;
     }
     
     #info-for-allergy {
-        font-size: x-large;
         width: 95%;
     }
     

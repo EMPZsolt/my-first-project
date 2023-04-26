@@ -60,3 +60,13 @@ This website was created for the wedding of Marisa and Zsolt. The main purpose i
 - I have confirmed that the form works: requires entires in every field and the submit button works.
 
 ### Bugs
+
+- When I first time used the font awesome icons and they didn't show up. I later realized that these were not free icons, so I replaced as many as I could find to be reasonably similar. This happend with the main logo in the header. The rest I replaced with similar images. This was the solution is the rsvp page, where the images reprezenting the different section of the qestions.
+
+- When I used the iframe element for showing the hotel location it showed a broken sign and said the google rejecting the connection. It turned out that I copied the google search url as the source and not the correct google map source.
+
+- The first time I tried responsive design, it became apparent that the footer contact people could not stay together at a smaller aspect ratio and broke the balance, and the images didn't keep their proportions either. First of all, at a smaller aspect ratio, I introduced two lines, those avoiding fragmentation and overcrowding, and used 'object-fit: cover;' style declaration to keep the aspect ratio on the pictures. 
+
+- On the honeymoon page, the pictures of the locations also caused problems at smaller screen sizes. After a while, they ran into each other or the ratios simply weren't good. So I decided to switch from the horizontal to the vertical positioning at a smaller screen size. I achieved this by changing the value of display to block.
+
+- There were also problems with keeping the images in position on the display of smaller devices on the rsvp page. I was able to compensate for this by adding additional sytle declarations, such as height and margin changes.
