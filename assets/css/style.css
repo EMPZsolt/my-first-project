@@ -324,7 +324,7 @@ button > img {
 #map > iframe {
     height: 260px;
     width: 95%;
-    margin: 0 2%;
+    margin: 0 1.5%;
     border: 5px double black;
 }
 
