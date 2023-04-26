@@ -50,3 +50,13 @@ This website was created for the wedding of Marisa and Zsolt. The main purpose i
      * He/she can only apply after you have entered all the required information. The submit button is represented by a love letter image.
 
      ![A sreenshot of the rsvp](./assets/images/rsvp.jpg)
+
+
+## Testing
+
+- I tested that this page works in different browsers: Microsoft Edge, Google Chrome, Firefox.
+- I confirmed that this project is responsive, functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the navigation, header, cover text, contacts, schedule, location, honeymoon and the rsvp are all readable and easy to understand.
+- I have confirmed that the form works: requires entires in every field and the submit button works.
+
+### Bugs
