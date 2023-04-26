@@ -45,8 +45,9 @@ h2 {
     float: right;
 }
 
-#menu, #logo {
-    line-height: 3rem;
+#menu,
+#logo {
+    line-height: 4rem;
 }
 
 #menu li {
@@ -77,7 +78,9 @@ h2 {
     overflow: hidden;
 }
 
-#cover-text, #cover-text h1, #cover-text p {
+#cover-text,
+#cover-text h1,
+#cover-text p {
     color: #fff8dc;
 }
 
@@ -89,19 +92,20 @@ h2 {
     background-color: rgb(0, 0, 0);
 
     /* animates zoom effect on loading page */
- animation-name: hero-zoom;
- animation-duration: 10s;
- animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
 
- 
+
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.15);
     }
 }
@@ -132,7 +136,7 @@ h2 {
 #footer {
     width: 100%;
     background-color: #fff8f8;
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 .circle-picture {
@@ -196,20 +200,20 @@ h2 {
     float: right;
 }
 
-#first-img > img {
+#first-img>img {
     width: 50%;
 }
 
-#second-img > img {
+#second-img>img {
     width: 50%;
 }
 
-#third-img > img {
+#third-img>img {
     width: 50%;
     padding: 2rem 0;
 }
 
-.right-content { 
+.right-content {
     width: 60%;
     line-height: 3rem;
     clear: both;
@@ -224,7 +228,7 @@ h2 {
     font-size: x-large;
 }
 
-button > img {
+button>img {
     width: 3rem;
 }
 
@@ -269,28 +273,28 @@ button > img {
     font-family: "Dancing Script", sans-serif;
 }
 
-#location p{
+#location p {
     text-align: center;
 }
 
-#hotel-logo > img {
+#hotel-logo>img {
     width: 10rem;
     height: 10rem;
     display: inherit;
     margin: 0 auto 2rem;
 }
 
-#hotel-link{
+#hotel-link {
     display: block;
     text-align: center;
-} 
+}
 
 #hotel-link a {
     text-decoration: none;
     color: #7f6d73;
     font-size: 200%;
     display: inline;
-    
+
 }
 
 #hotel-link a:hover {
@@ -311,7 +315,7 @@ button > img {
     margin: 0 0 2rem;
 }
 
-#hotel-pictures > img {
+#hotel-pictures>img {
     width: 100%;
     display: inline-block;
     grid-row: 1;
@@ -321,7 +325,7 @@ button > img {
     height: 300px;
 }
 
-#map > iframe {
+#map>iframe {
     height: 260px;
     width: 95%;
     margin: 0 1.5%;
@@ -374,20 +378,20 @@ button > img {
 
 /*For larger to medium screen size form 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    
+
     /* index.html */
 
     #cover-text {
         right: 3rem;
     }
-    
+
     #countdown {
         width: 500px;
         height: 200px;
         bottom: 60px;
         right: -1rem;
         position: absolute;
-    }    
+    }
 
     /* honeymoon.html*/
 
@@ -422,12 +426,12 @@ button > img {
 
 /* For medium sreen seizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    
+
     /* index.html*/
 
     #hero-image {
         background-position: 37% -4rem;
-    }    
+    }
 
     #cover-text {
         font-size: 180%;
@@ -437,7 +441,7 @@ button > img {
         right: 1rem;
         text-align: center;
     }
-    
+
     #countdown {
         width: 100%;
         height: 230px;
@@ -450,9 +454,9 @@ button > img {
     /* Header */
 
     #header-background {
-    width: 100%;
-    background-color: #fff8f8;
-    display: table;
+        width: 100%;
+        background-color: #fff8f8;
+        display: table;
     }
 
     #menu {
@@ -468,12 +472,12 @@ button > img {
     #person1 {
         width: 50%;
     }
-    
+
     #person2 {
         width: 50%;
         float: right;
     }
-    
+
     #person3 {
         width: 50%;
     }
@@ -508,55 +512,56 @@ button > img {
     }
 
     /* rsvp.html */
-    
+
     #left-column {
         padding-top: 3rem;
         width: 25%;
     }
-    
+
     #right-column {
         padding-top: 3rem;
         width: 75%;
         font-size: 120%;
     }
-    
+
     .left-img {
         width: 60%;
         line-height: inherit;
         margin: 0 0 7rem;
     }
-    
-    #first-img > img {
+
+    #first-img>img {
         width: 50%;
         height: 3rem;
         padding-top: 1rem;
     }
-    
-    #second-img > img {
+
+    #second-img>img {
         width: 50%;
         height: 3rem;
     }
-    
-    #third-img > img {
+
+    #third-img>img {
         width: 50%;
         height: 3rem;
         padding: 2rem 0;
     }
-    .right-content { 
+
+    .right-content {
         width: 90%;
         line-height: 3rem;
         margin-bottom: 2rem;
     }
-    
+
     #name {
         width: 95%;
     }
-    
+
     #info-for-allergy {
         width: 95%;
     }
-    
-    button > img {
+
+    button>img {
         width: 3rem;
     }
 }
