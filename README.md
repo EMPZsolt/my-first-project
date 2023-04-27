@@ -18,7 +18,7 @@ This website was created for the wedding of Marisa and Zsolt. The main purpose i
      * This part attracts the user's attention with a zoom in animation and puts the couple in the center.
      * The countdown clock specifically draws attention to the proximity of the event.
 
-     ![A srceenshot of the hero image, the text content and the countdown clock](./assets/images/Hero-img.jpg)
+     ![A srceenshot of the hero image, the text content and the countdown clock](./assets/images/hero-img.jpg)
 
 - The Footer
      * In the footer section located the contacts, so the members of the wedding party.
@@ -44,12 +44,17 @@ This website was created for the wedding of Marisa and Zsolt. The main purpose i
 
      ![A sreenshot of the honeymoon page](./assets/images/honeymoon.jpg)
 
-- RSVP Application
+- RSVP Form
      * This page allows the user to register for the wedding. The user must enter his/her name, which day he/she wishes to participate, and what menu he/she would like to eat.
      * Different icons help to separate the different question sections for easier overview.
      * He/she can only apply after you have entered all the required information. The submit button is represented by a love letter image.
 
      ![A sreenshot of the rsvp](./assets/images/rsvp.jpg)
+
+- Thank You page
+      * This page pops up after successful registration. It contains a thank you note and says that the home page will automatically return. 
+
+      ![A screenshot os the thank-you page](./assets/images/thank-you.jpg)
 
 
 ## Testing
