@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Marisa&Zsolt RSVP</title>
 </head>
+
 <body>
+
+    <!-- Header section - Nav bar -->
+
     <header id="header-background">
-        
+
         <a href="index.html">
             <h2 id="logo">
                 M & Zs <i class="fa-regular fa-heart fa-beat-fade"></i>
@@ -41,35 +46,47 @@
         </nav>
     </header>
 
+    <!-- Main section - RSVP form -->
+
     <section id="rsvp">
         <form action="./thank-you.html">
+
+            <!-- Left side - Example icons-->
+
             <div id="left-column">
-    
-                <div id="first-img" class="left-img"> 
+
+                <div id="first-img" class="left-img">
                     <img src="./assets/images/couple.png" alt="Couple image">
                 </div>
-    
+
                 <div id="second-img" class="left-img">
                     <img src="./assets/images/calendar-heart.png" alt="A calendar image with a heart inside">
                 </div>
-    
+
                 <div id="third-img" class="left-img">
                     <img src="./assets/images/wedding-food.png" alt="A plate of food">
                 </div>
-    
+
             </div>
-    
+
+            <!-- Right side - To be filled out -->
+
             <div id="right-column">
+
+                <!-- Name -->
+
                 <div class="right-content">
                     <label for="name">Name</label>
                     <br>
                     <input id="name" type="text" name="full_name" required>
                 </div>
-    
+
+                <!-- Attend dates -->
+
                 <div class="right-content">
                     <fieldset>
-                    <legend>RSVP</legend>
-        
+                        <legend>RSVP</legend>
+
                         <input id="friday-saturday" name="attend" value="friday-saturday" type="radio" required>
                         <label for="friday-saturday">I will attend friday & saturday</label>
                         <br>
@@ -77,36 +94,39 @@
                         <label for="only saturday">I will attend only saturday</label>
                     </fieldset>
                 </div>
-    
+
+                <!-- Food menu -->
+
                 <div class="right-content">
                     <fieldset>
                         <legend>MENU</legend>
-            
-                            <input id="meat" name="food" value="meat" type="radio" required>
-                            <label for="meat">Meat</label>
-                            <br>
-                            <input id="fish" name="food" value="fish" type="radio" required>
-                            <label for="fish">Fish</label>
-                            <br>
-                            <input id="vegetarian" name="food" value="vegetarian" type="radio" required>
-                            <label for="vegetarian">Vegetarian</label>
-                            <br>
-                            <label for="info-for-allergy">Some allergy / dietary requirements</label>
-                            <br>
-                            <textarea id="info-for-allergy" rows="4" cols="60" name="feedback"></textarea>
+
+                        <input id="meat" name="food" value="meat" type="radio" required>
+                        <label for="meat">Meat</label>
+                        <br>
+                        <input id="fish" name="food" value="fish" type="radio" required>
+                        <label for="fish">Fish</label>
+                        <br>
+                        <input id="vegetarian" name="food" value="vegetarian" type="radio" required>
+                        <label for="vegetarian">Vegetarian</label>
+                        <br>
+                        <label for="info-for-allergy">Some allergy / dietary requirements</label>
+                        <br>
+                        <textarea id="info-for-allergy" rows="4" cols="60" name="feedback"></textarea>
                     </fieldset>
                 </div>
+                
+                <!-- Food allergy -->
+
                 <div class="right-content">
                     <label for="submit">Submit</label>
                     <br>
-                    <button type="submit" id="submit"><img src="assets/images/letter-icon.png" alt="A letter with a heart inside"></button> 
-
+                    <button type="submit" id="submit"><img src="assets/images/letter-icon.png"
+                            alt="A letter with a heart inside"></button>
                 </div>
             </div>
         </form>
     </section>
-
-     <!-- Font awesome script -->
-     <script src="https://kit.fontawesome.com/ac5a93bf5a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
