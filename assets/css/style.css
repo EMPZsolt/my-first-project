@@ -22,17 +22,13 @@ body {
     background-color: #fff8f8;
 }
 
-h2 {
-    font-family: "Crimson Text", sans-serif;
-    letter-spacing: 4px;
-}
-
 #logo {
     float: left;
     font-size: 180%;
     color: #4e1c22;
     font-family: "Crimson Text", sans-serif;
     margin-left: 30px;
+    letter-spacing: 4px;
 }
 
 #logo:hover {
@@ -81,8 +77,8 @@ h2 {
 }
 
 #cover-text,
-#cover-text h1,
-#cover-text p {
+#cover-text > h2,
+#cover-text > p {
     color: #fff8dc;
 }
 
