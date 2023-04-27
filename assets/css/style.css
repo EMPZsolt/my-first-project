@@ -12,6 +12,8 @@ body {
     color: #7f6d73;
 }
 
+/* Home */
+
 /* Headings and logo */
 
 #header-background {
@@ -178,11 +180,11 @@ h2 {
     width: 33%;
 }
 
-/* Form */
+/* RSVP */
 
 #rsvp {
     background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
-    height: 880px;
+    height: 900px;
 }
 
 #left-column {
@@ -237,6 +239,20 @@ h2 {
 
 button>img {
     width: 3rem;
+}
+
+/* Thank you */
+
+#thank-you {
+    background-image: radial-gradient(circle, #fcc38e, #fab997, #f4b1a0, #e9aba8, #daa6ad);
+    height: 809px;
+    width: 100vw;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0 2rem;
+    
 }
 
 /* Schedule */
@@ -386,7 +402,7 @@ button>img {
 /*For larger to medium screen size form 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    /* index.html */
+    /* Home */
 
     #cover-text {
         right: 3rem;
@@ -400,7 +416,7 @@ button>img {
         position: absolute;
     }
 
-    /* honeymoon.html*/
+    /* Honeymoon*/
 
     #honeymoon {
         height: 850px;
@@ -419,7 +435,7 @@ button>img {
         border-radius: 10px;
     }
 
-    /* rsvp.html */
+    /* RSVP */
 
     .left-img {
         width: 60%;
@@ -434,7 +450,7 @@ button>img {
 /* For medium sreen seizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    /* index.html*/
+    /* Home*/
 
     #hero-image {
         background-position: 37% -4rem;
@@ -500,7 +516,7 @@ button>img {
         padding: 0 1rem
     }
 
-    /* honeymoon.html */
+    /* Honeymoon */
 
     #honeymoon {
         height: 1600px;
@@ -529,7 +545,7 @@ button>img {
         margin-bottom: 3rem;
     }
 
-    /* rsvp.html */
+    /* RSVP */
 
     #left-column {
         padding-top: 3rem;
