@@ -205,8 +205,18 @@ The following issues were raised during my mid project meeting with my mentor:
 ### W3C Validator
 The W3C validator was used to validate the HTML. It was also used to validate CSS in the style.css file.
 
-- [W3C HTML Validator](./assets/images/w3c-html-validator.webp)
-- [CSS Validator](./assets/images/css-validator.webp)
+- No errors were returned when passing through the official [W3C HTML Validator](./assets/images/w3c-html-validator.webp)
+- No errors were found when passing through the official [CSS Validator](./assets/images/css-validator.webp)
+
+### Lighthouse
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+#### Home page
+#### Schedule page
+#### Location page
+#### Honeymoon page
+#### RSVP page
+#### Thank you page
 
 
 
