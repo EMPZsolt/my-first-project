@@ -5,6 +5,40 @@ This website was created for the wedding of Marisa and Zsolt. The main purpose i
 
 ![A screenshot of this project from a mockup sreenshot generator and it represents how responsive the different pages of the website](./assets/images/responsive-img.webp)
 
+## Contents
+- [Design](#design)
+     * Color Scheme
+     * Typography
+     * Imagery
+     * Features
+     * Features
+- Technologies Used
+     * Languages Used
+     * Libraries & Programs Used
+- Deployment and Local Development
+     * Deployment
+     * Local Deployment
+          * How to Fork
+          * How to Clone
+- Testing
+     * Bugs
+     * W3C Validator
+     * Lighthouse
+          * Home page / Index page
+          * Schedule page
+          * Location page
+          * Honeymoon page
+          * RSVP page
+          * Thank You page
+- Credits
+     * Code Used
+     * Content
+     * Media
+          * Hotel images
+          * Honeymoon images
+          * RSVP icons
+     * Acknowledgments
+
 
 ## Design
 
@@ -280,7 +314,7 @@ Final lighthouse testing:
       Suggestions:
       1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
 
-#### Thank you page
+#### Thank You page
 Final lighthouse testing:
 - [Desktop size](./assets/images/lighthouse-thank-you-destop-final.webp)
 
