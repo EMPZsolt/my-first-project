@@ -7,38 +7,37 @@ This website was created for the wedding of Marisa and Zsolt. The main purpose i
 
 ## Contents
 - [Design](#design)
-     * Color Scheme
-     * Typography
-     * Imagery
-     * Features
-     * Features
-- Technologies Used
-     * Languages Used
-     * Libraries & Programs Used
-- Deployment and Local Development
-     * Deployment
-     * Local Deployment
-          * How to Fork
-          * How to Clone
-- Testing
-     * Bugs
-     * W3C Validator
-     * Lighthouse
-          * Home page / Index page
-          * Schedule page
-          * Location page
-          * Honeymoon page
-          * RSVP page
-          * Thank You page
-- Credits
-     * Code Used
-     * Content
-     * Media
-          * Hotel images
-          * Honeymoon images
-          * RSVP icons
-     * Acknowledgments
-
+     * [Color Scheme](#color-scheme)
+     * [Typography](#typography)
+     * [Imagery](#imagery)
+     * [Features](#features)
+     * [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+     * [Languages Used](#languages-used)
+     * [Libraries & Programs Used](#libraries--programs-used)
+- [Deployment and Local Development](#deployment-and-local-development)  
+     * [Deployment](#deployment)
+     * [Local Deployment](#local-development)
+          * [How to Fork](#how-to-fork)
+          * [How to Clone](#how-to-clone)
+- [Testing](#testing)
+     * [Bugs](#bugs)
+     * [W3C Validator](#w3c-validator)
+     * [Lighthouse](#lighthouse)
+          * [Home page / Index page](#home-page--index-page)
+          * [Schedule page](#schedule-page)
+          * [Location page](#location-page)
+          * [Honeymoon page](#honeymoon-page)
+          * [RSVP page](#rsvp-page)
+          * [Thank You page](#thank-you-page)
+- [Credits](#credits)
+     * [Code Used](#code-used)
+     * [Content](#content)
+     * [Media](#media)
+          * [Hotel images](#hotel-images)
+          * [Honeymoon images](#honeymoon-images)
+          * [RSVP icons](#rsvp-icons)
+     * [Acknowledgments](#acknowledgments)
 
 ## Design
 
