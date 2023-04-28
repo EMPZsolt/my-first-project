@@ -215,7 +215,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Home page / Index page
 Final lighthouse testing:
-- [Destop size](./assets/images/lighthouse-homepage-destop-final.webp)
+- [Desktop size](./assets/images/lighthouse-homepage-destop-final.webp)
 
       Suggestions:
       1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
@@ -232,7 +232,7 @@ Final lighthouse testing:
 
 #### Schedule page
 Final lighthouse testing:
-- [Destop size](./assets/images/lighthouse-schedule-destop-final.webp)
+- [Desktop size](./assets/images/lighthouse-schedule-destop-final.webp)
 
       Suggestions: None
 
@@ -244,7 +244,7 @@ Final lighthouse testing:
 
 #### Location page
 Final lighthouse testing:
-- [Destop size](./assets/images/lighthouse-location-destop-final.webp)
+- [Desktop size](./assets/images/lighthouse-location-destop-final.webp)
 
       Suggestions:
       1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
@@ -257,7 +257,7 @@ Final lighthouse testing:
 
 #### Honeymoon page
 Final lighthouse testing:
-- [Destop size](./assets/images/lighthouse-honeymoon-destop-final.webp)
+- [Desktop size](./assets/images/lighthouse-honeymoon-destop-final.webp)
 
       Suggestions:
       1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
@@ -270,14 +270,19 @@ Final lighthouse testing:
 
 #### RSVP page
 Final lighthouse testing:
-- [Destop size](./assets/images/lighthouse-rsvp-destop-final.webp)
+- [Desktop size](./assets/images/lighthouse-rsvp-destop-final.webp)
 
       Suggestions:
+      1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+
 - [Mobile size](./assets/images/lighthouse-rsvp-mobil-final.webp)
+
+      Suggestions:
+      1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
 
 #### Thank you page
 Final lighthouse testing:
-- [Destop size](./assets/images/lighthouse-thank-you-destop-final.webp)
+- [Desktop size](./assets/images/lighthouse-thank-you-destop-final.webp)
 - [Mobile size](./assets/images/lighthouse-thank-you-mobil-final.webp)
 
 
