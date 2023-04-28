@@ -3,14 +3,14 @@
 
 This website was created for the wedding of Marisa and Zsolt. The main purpose is to let their family, friends and the world know that they are getting married. In addition it serves as a source of other related information, such as a detailed program, the wedding venue, the planned honeymoon and the application (rsvp) for the wedding.
 
-![A screenshot of this project from a mockup sreenshot generator and it represents how responsive the different pages of the website](./assets/images/responsive-img.jpg)
+![A screenshot of this project from a mockup sreenshot generator and it represents how responsive the different pages of the website](./assets/images/responsive-img.webp)
 
 
 ## Design
 
 ### Color Scheme
 
-![Image of the website's backgroundcolors](./assets/images/background-img.png)
+![Image of the website's backgroundcolors](./assets/images/background-img.webp)
 
 The website uses a palette of warm pastel colors that perfectly match the wedding atmosphere. The color palette was created with the help of the Coolors website.
 
@@ -32,7 +32,7 @@ The hero image and the images of the contact people are self-made images. The ho
      * This section will allow the user to easly navigate from page to page across all devices without having to revert back to the pervious page via the 'back' button.
      * For transparent and easy selection, the navigation links are underlined and highlighted with color.
 
-     ![A screenshot of the navigation bar](./assets/images/nav-bar.jpg)
+     ![A screenshot of the navigation bar](./assets/images/nav-bar.webp)
 
 - The Hero image
 
@@ -40,35 +40,35 @@ The hero image and the images of the contact people are self-made images. The ho
      * This part attracts the user's attention with a zoom in animation and puts the couple in the center.
      * The countdown clock specifically draws attention to the proximity of the event.
 
-     ![A srceenshot of the hero image, the text content and the countdown clock](./assets/images/hero-img.jpg)
+     ![A srceenshot of the hero image, the text content and the countdown clock](./assets/images/hero-img.webp)
 
 - The Footer
 
      * In the footer section located the contacts, so the members of the wedding party.
      * Introducing the members with a separate photo and their contact information.
 
-     ![A sreenshot of the footer](./assets/images/footer.jpg)
+     ![A sreenshot of the footer](./assets/images/footer.webp)
 
 - Schedule page
 
      * The schedule section is designed to inform the user about the detailed wedding program.
      * It also informs the dress code.
 
-     ![A sreenshot of the schedule page](./assets/images/scedule.jpg)
+     ![A sreenshot of the schedule page](./assets/images/scedule.webp)
 
 - Location page
 
      * The location section presents the hotel where the wedding will take place.
      * In addition to the location logo, three on-site photos, and Google Maps location, there is also a link embedded in the name of the hotel, which leads to their official website, informing the visitor.
 
-     ![A sreenshot of the location page](./assets/images/location.jpg)
+     ![A sreenshot of the location page](./assets/images/location.webp)
 
 - Honeymoon page
 
      * The honeymoon page simply and concisely describes the locations, complete with pictures and duration.
      * It also contains a text message which purpose is to thank the guests for their presence and hint at the possibility of contributing.
 
-     ![A sreenshot of the honeymoon page](./assets/images/honeymoon.jpg)
+     ![A sreenshot of the honeymoon page](./assets/images/honeymoon.webp)
 
 - RSVP Form
 
@@ -76,13 +76,13 @@ The hero image and the images of the contact people are self-made images. The ho
      * Different icons help to separate the different question sections for easier overview.
      * He/she can only apply after he/she have entered all the required information. The submit button is represented by a love letter image.
 
-     ![A sreenshot of the rsvp](./assets/images/rsvp.jpg)
+     ![A sreenshot of the rsvp](./assets/images/rsvp.webp)
 
 - Thank You page
 
      * This page pops up after successful registration. It contains a thank you note and says that the home page will automatically return. 
 
-     ![A screenshot of the thank-you page](./assets/images/thank-you.jpg)
+     ![A screenshot of the thank-you page](./assets/images/thank-you.webp)
 
 - Features Left to Implement
 
@@ -204,6 +204,10 @@ The following issues were raised during my mid project meeting with my mentor:
 
 ### W3C Validator
 The W3C validator was used to validate the HTML. It was also used to validate CSS in the style.css file.
+
+- [W3C HTML Validator](./assets/images/w3c-html-validator.webp)
+- [CSS Validator](./assets/images/css-validator.webp)
+
 
 
 
