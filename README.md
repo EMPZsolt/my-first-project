@@ -202,6 +202,9 @@ The following issues were raised during my mid project meeting with my mentor:
 
 - I had to find a countdown clock and download it to get more effect of the main page. But the first one I found and applied was unfortunately only a demo version and the html validator also threw an error on it. The reason for the error was that the size details and setting of the frame was in the iframe code. So I replaced these styles with an id attribute and transferred the style declarations to the style.css page. This solved the error problem, but since there was still a demo label in the corner of the clock, I decided to replace it with another one. I found a suitable one on the TickCounter site.
 
+### W3C Validator
+The W3C validator was used to validate the HTML. It was also used to validate CSS in the style.css file.
+
 
 
  ## Credits
