@@ -105,7 +105,7 @@ During the coding, I made sure that the website was as user-friendly as possible
 
 ### Languages Used
 
-HTML and CSS were used to create this website.
+HTML and CSS were used to create this website. There is also JavaScript in the code, but it is from an external source.
 
 ### Libraries & Programs Used
 
@@ -219,14 +219,14 @@ Final lighthouse testing:
 
       Suggestions:
       1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
-      2. Screen reader users rely on frame titles to describe the contents of frames. - In this case, with a downloaded javascript-based countdown clock, I couldn't set a title for the iframe. However, I considered the effectiveness to be much more important, so I kept it.
+      2. Screen reader users rely on frame titles to describe the contents of frames. - In this case, with a downloaded javaScript-based countdown clock, I couldn't set a title for the iframe. However, I considered the effectiveness to be much more important, so I kept it.
 
 - [Mobile size](./assets/images/lighthouse-homepage-mobil-final.webp)
 
       Suggestions:
       1. Consider adding `preconnect` or `dns-prefetch` resource hints to establish early connections to important third-party origins. - These elements are required for proper design.
       2. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
-      3. Screen reader users rely on frame titles to describe the contents of frames. - In this case, with a downloaded javascript-based countdown clock, I couldn't set a title for the iframe. However, I considered the effectiveness to be much more important, so I kept it.
+      3. Screen reader users rely on frame titles to describe the contents of frames. - In this case, with a downloaded javaScript-based countdown clock, I couldn't set a title for the iframe. However, I considered the effectiveness to be much more important, so I kept it.
 
 
 
@@ -240,7 +240,7 @@ Final lighthouse testing:
 
       Suggestions:
       1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
-      2. Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. - At the current level, I can't touch the Javascript code and this element is important for the design.
+      2. Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. - At the current level, I can't touch the JavaScript code and this element is important for the design.
 
 #### Location page
 Final lighthouse testing:
@@ -283,16 +283,50 @@ Final lighthouse testing:
 #### Thank you page
 Final lighthouse testing:
 - [Desktop size](./assets/images/lighthouse-thank-you-destop-final.webp)
+
+      Suggestions:
+      1. Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. - This page is designed to thank and provide feedback to registrants. Furthermore, it is indicated that the page is temporary and returns to the home page.
+
 - [Mobile size](./assets/images/lighthouse-thank-you-mobil-final.webp)
 
-
-
-
+      Suggestions:
+      1. Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. - This page is designed to thank and provide feedback to registrants. Furthermore, it is indicated that the page is temporary and returns to the home page.
 
  ## Credits
 
- ### Content
+ ### Code Used
 
+ The countdown clock (JavaScript code) from Tickcounter.
+
+ ### Content
+- The textual content of the Schedule and the Honeymoon page is partially taken from our original wedding site: [Budu and Zsolt](https://www.marisaandzsolt.ch/en) 
+
+- The hotel description on the location page comes from the [hotel's official website](https://www.borgosanfelice.it/en/index).
+ 
  ### Media
 
+ #### Hotel images
+ - [First picture](https://www.wedaways.com/properties/borgo-san-felice/)
+ - [Second picture](https://www.meetingecongressi.com/en/hotel/castelnuovo_berardenga/160/relais_borgo_san_felice.htm)
+ - [Third Picture](https://www.audleytravel.com/italy/tuscany/accommodation/borgo-san-felice)
+ - [Borgo San Felice Logo](https://www.mariacandidagentile.com/en/bespoke-fragrances/borgo-san-felice/)
+
+ #### Honeymoon images
+ - [Napa Valley](https://www.thedrinksbusiness.com/2022/09/napa-valley-like-a-ghost-town-this-summer/)
+ - [Bora bora](https://www.forbes.com/sites/debbikickham/2019/07/31/the-best-hotels-in-bora-bora/?sh=3ac109757efc)
+ - [Singapore](https://www.escape.com.au/destinations/asia/singapore/24-things-that-will-surprise-you-about-singapore/news-story/3d092fcdef21f52791332497b367a584)
+
+ #### RSVP icons
+ - [Left side icons](https://www.flaticon.com/)
+ - [Submit button](https://www.pinterest.com/pin/671740100661320986/)
+
+The rest of the picture is my own.
+
  ### Acknowledgments
+
+ I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+ - My future wife, who gave me ideas and supported me through the project.
+ - My Mentor, Graeme Taylor, who showed the direction, helped and encouraged me.
+ - The Tutor system, to help me fixing the Iframe location. 
+ - Thank you to entire Code Isntitute for making my development possible.
