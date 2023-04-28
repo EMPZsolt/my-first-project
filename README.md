@@ -129,6 +129,8 @@ FreeConvert - To compress images in the webp format.
 
 Am I Responsive? - To show the website image on a range of devices.
 
+Paint - To cut the images to the right size.
+
 
 ## Deployment and Local Development
 
@@ -211,12 +213,73 @@ The W3C validator was used to validate the HTML. It was also used to validate CS
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-#### Home page
+#### Home page / Index page
+Final lighthouse testing:
+- [Destop size](./assets/images/lighthouse-homepage-destop-final.webp)
+
+      Suggestions:
+      1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+      2. Screen reader users rely on frame titles to describe the contents of frames. - In this case, with a downloaded javascript-based countdown clock, I couldn't set a title for the iframe. However, I considered the effectiveness to be much more important, so I kept it.
+
+- [Mobile size](./assets/images/lighthouse-homepage-mobil-final.webp)
+
+      Suggestions:
+      1. Consider adding `preconnect` or `dns-prefetch` resource hints to establish early connections to important third-party origins. - These elements are required for proper design.
+      2. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+      3. Screen reader users rely on frame titles to describe the contents of frames. - In this case, with a downloaded javascript-based countdown clock, I couldn't set a title for the iframe. However, I considered the effectiveness to be much more important, so I kept it.
+
+
+
 #### Schedule page
+Final lighthouse testing:
+- [Destop size](./assets/images/lighthouse-schedule-destop-final.webp)
+
+      Suggestions: None
+
+- [Mobile size](./assets/images/lighthouse-schedule-mobil-final.webp)
+
+      Suggestions:
+      1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+      2. Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. - At the current level, I can't touch the Javascript code and this element is important for the design.
+
 #### Location page
+Final lighthouse testing:
+- [Destop size](./assets/images/lighthouse-location-destop-final.webp)
+
+      Suggestions:
+      1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+
+- [Mobile size](./assets/images/lighthouse-location-mobil-final.webp)
+
+      Suggestions:
+      1. Serve images that are appropriately-sized to save cellular data and improve load time. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+      2. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+
 #### Honeymoon page
+Final lighthouse testing:
+- [Destop size](./assets/images/lighthouse-honeymoon-destop-final.webp)
+
+      Suggestions:
+      1. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+
+- [Mobile size](./assets/images/lighthouse-honeymoon-mobil-final.webp)
+
+      Suggestions:
+      1. Serve images that are appropriately-sized to save cellular data and improve load time. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+      2. A long cache lifetime can speed up repeat visits to your page. - So considering the circumstances, I converted the images to the smallest possible size and webp format.
+
 #### RSVP page
+Final lighthouse testing:
+- [Destop size](./assets/images/lighthouse-rsvp-destop-final.webp)
+
+      Suggestions:
+- [Mobile size](./assets/images/lighthouse-rsvp-mobil-final.webp)
+
 #### Thank you page
+Final lighthouse testing:
+- [Destop size](./assets/images/lighthouse-thank-you-destop-final.webp)
+- [Mobile size](./assets/images/lighthouse-thank-you-mobil-final.webp)
+
 
 
 

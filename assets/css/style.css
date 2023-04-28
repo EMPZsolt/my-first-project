@@ -200,14 +200,17 @@ body {
 
 #first-img>img {
     width: 50%;
+    height: 50%;
 }
 
 #second-img>img {
     width: 50%;
+    height: 50%;
 }
 
 #third-img>img {
     width: 50%;
+    height: 50%;
     padding: 2rem 0;
 }
 
@@ -229,6 +232,7 @@ body {
 
 button>img {
     width: 3rem;
+    height: 3rem;
 }
 
 /* Thank you */
@@ -583,9 +587,5 @@ button>img {
 
     #info-for-allergy {
         width: 95%;
-    }
-
-    button>img {
-        width: 3rem;
     }
 }
