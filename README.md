@@ -183,17 +183,17 @@ The site is deployed using GitHub Pages. Visit the deployed site [here](https://
 ### Local Development
 
 #### How to Fork
-To fork the Bully-Book-Club repository:
+To fork the Marisa & Zsolt wedding websit repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
+2. Go to the repository for this project, EMPZsolt/my-first-project.
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
-To clone the Bully-Book-Club repository:
+To clone the Marisa & Zsolt wedding websit repository:
 
 Log in (or sign up) to GitHub.
-Go to the repository for this project, kera-cudmore/Bully-Book-Club.
+Go to the repository for this project, EMPZsolt/my-first-project.
 Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
